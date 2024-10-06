@@ -77,7 +77,7 @@ export default function Home() {
           {/* No Recipes Found */}
           {!loading && recipes.length === 0 && query && (
             <p className="text-center text-lg text-gray-500 mt-6">
-              No recipes found for "{query}".
+              No recipes found for <strong>{query}</strong>.
             </p>
           )}
         </div>
